@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background: linear-gradient(0.25turn, rgb(232, 102, 191),rgb(138, 224, 252));
+  text-align: center;
+}
+h1{
+  color: #fff;
+  margin-top: 50px;
+  font-size: large;
+  
+}
+.container{
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game{
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+.box{
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 3px 3px 10px rgba(88, 87, 87, 0.501);
+  font-size: 8vmin;
+  color: #7524a7;
+  background-color: #fff;
+  transition: all .3s ease-in-out;
+}
+.box:hover{
+  width: 19vmin;
+  height: 19vmin;
+}
+.reset-btn{
+  height: 10vmin;
+  width: 40vmin;
+  padding: auto;
+  font-size: 1rem;
+  background-color: #51E5FF;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 3px 3px 10px rgba(88, 87, 87, 0.319);
+  transition: all .5s ease;
+}
+.reset-btn:hover{
+  color: #7524a7;
+  background-color: #fff;
+}
+#new-btn
+{
+  height: 10vmin;
+  width: 40vmin;
+  padding: auto;
+  font-size: 1rem;
+  background-color: #51E5FF;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  transition: all .5s ease;
+}
+#new-btn:hover{
+  color: #7524a7;
+  background-color: #fff;
+}
+#msg{
+  color: #fff;
+  font-size: 8vmin;
+}
+.msg-container{
+  height: 180vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.hide{
+  display: none;
+}
